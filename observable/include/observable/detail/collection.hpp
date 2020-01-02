@@ -218,7 +218,7 @@ private:
         node * next { nullptr };
         ValueType element;
         std::atomic<bool> deleted { false };
-        id node_id;
+        id node_id {0};
     };
 
 private:
